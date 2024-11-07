@@ -1,0 +1,830 @@
+[
+        {
+            "id": 138491,
+            "skillId": 294,
+            "name": "Accountability",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138080,
+            "skillId": 202,
+            "name": "AWS",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138492,
+            "skillId": 295,
+            "name": "Be Founder",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138490,
+            "skillId": 293,
+            "name": "Comprometimento",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138489,
+            "skillId": 169,
+            "name": "Sentimento de dono",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138081,
+            "skillId": 369,
+            "name": "BFF",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138493,
+            "skillId": 176,
+            "name": "Transparência",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138082,
+            "skillId": 242,
+            "name": "AWS DynamoDB",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138494,
+            "skillId": 241,
+            "name": "TypeScript",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138083,
+            "skillId": 243,
+            "name": "AWS SQS/SNS",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138495,
+            "skillId": 246,
+            "name": "Observability",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138084,
+            "skillId": 261,
+            "name": "Clean Code",
+            "rating": 6,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138085,
+            "skillId": 244,
+            "name": "Design Patterns",
+            "rating": 6,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138086,
+            "skillId": 207,
+            "name": "Docker",
+            "rating": 6,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138087,
+            "skillId": 199,
+            "name": "Angular",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138088,
+            "skillId": 339,
+            "name": "Apache Camel",
+            "rating": 5,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138089,
+            "skillId": 347,
+            "name": "DevOps",
+            "rating": 5,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138090,
+            "skillId": 173,
+            "name": "Autogestão",
+            "rating": 4,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+	        {
+            "id": 138092,
+            "skillId": 309,
+            "name": "Organização",
+            "rating": 4,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138091,
+            "skillId": 308,
+            "name": "Priorização",
+            "rating": 4,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138093,
+            "skillId": 310,
+            "name": "Proatividade",
+            "rating": 4,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138094,
+            "skillId": 373,
+            "name": "Diversidade e Inclusão",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138095,
+            "skillId": 220,
+            "name": "JUnit",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138096,
+            "skillId": 217,
+            "name": "Java",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138097,
+            "skillId": 218,
+            "name": "Javascript",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138098,
+            "skillId": 219,
+            "name": "Jenkins",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138099,
+            "skillId": 208,
+            "name": "Elastic Search",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138100,
+            "skillId": 258,
+            "name": "C++",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138101,
+            "skillId": 188,
+            "name": "Micro services",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138102,
+            "skillId": 227,
+            "name": "Microsoft Azure",
+            "rating": 4,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138103,
+            "skillId": 266,
+            "name": "Linux",
+            "rating": 5,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138104,
+            "skillId": 214,
+            "name": "HTML",
+            "rating": 5,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138105,
+            "skillId": 210,
+            "name": "GitHub",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138106,
+            "skillId": 257,
+            "name": "C",
+            "rating": 3,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138107,
+            "skillId": 191,
+            "name": "API gateway",
+            "rating": 3,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138110,
+            "skillId": 301,
+            "name": "Autoconhecimento",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+	        {
+            "id": 138112,
+            "skillId": 303,
+            "name": "Autocontrole",
+            "rating": 5,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138113,
+            "skillId": 304,
+            "name": "Destreza Social",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138109,
+            "skillId": 300,
+            "name": "Empatia",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138108,
+            "skillId": 171,
+            "name": "Inteligência Emocional",
+            "rating": 5,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138111,
+            "skillId": 302,
+            "name": "Motivação",
+            "rating": 6,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138114,
+            "skillId": 177,
+            "name": "Comunicação",
+            "rating": 1,
+            "type": "BEHAVIOR",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 146806,
+            "skillId": 377,
+            "name": "LGPD para contato com usuários em cenários de pesquisa",
+            "rating": -1,
+            "type": "BUSINESS",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138115,
+            "skillId": 365,
+            "name": "LGPD / Privacidade",
+            "rating": -1,
+            "type": "BUSINESS",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138116,
+            "skillId": 165,
+            "name": "Kanban",
+            "rating": 1,
+            "type": "BUSINESS",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138117,
+            "skillId": 164,
+            "name": "Scrum",
+            "rating": 1,
+            "type": "BUSINESS",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138118,
+            "skillId": 167,
+            "name": "Nexus",
+            "rating": 1,
+            "type": "BUSINESS",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138119,
+            "skillId": 282,
+            "name": "TDD",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138120,
+            "skillId": 249,
+            "name": "Spring Cloud",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138121,
+            "skillId": 238,
+            "name": "SQL",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 156815,
+            "skillId": 421,
+            "name": "API Governance",
+            "rating": -1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 156813,
+            "skillId": 419,
+            "name": "Dev SecOps",
+            "rating": -1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 156814,
+            "skillId": 420,
+            "name": "Infra As Code",
+            "rating": -1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138122,
+            "skillId": 192,
+            "name": "Security",
+            "rating": -1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+	        {
+            "id": 156816,
+            "skillId": 422,
+            "name": "Security, Guardrails & Policies",
+            "rating": -1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138123,
+            "skillId": 370,
+            "name": "Rest",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138124,
+            "skillId": 235,
+            "name": "React",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138125,
+            "skillId": 270,
+            "name": "Oracle Database",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138126,
+            "skillId": 269,
+            "name": ".Net Core",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138127,
+            "skillId": 230,
+            "name": "Node JS",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138128,
+            "skillId": 272,
+            "name": "PostgreSQL",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138129,
+            "skillId": 345,
+            "name": "Redis",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138130,
+            "skillId": 237,
+            "name": "Spring",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138131,
+            "skillId": 268,
+            "name": "MySQL",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138132,
+            "skillId": 260,
+            "name": "Clean Architecture",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138133,
+            "skillId": 231,
+            "name": "NoSQL",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138134,
+            "skillId": 278,
+            "name": "RPA",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138135,
+            "skillId": 281,
+            "name": "SQL Server",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        },
+        {
+            "id": 138136,
+            "skillId": 228,
+            "name": "Mockito",
+            "rating": 1,
+            "type": "TECH",
+            "like": {
+                "count": 0,
+                "isLiked": false,
+                "liked": false
+            }
+        }
+    ]
