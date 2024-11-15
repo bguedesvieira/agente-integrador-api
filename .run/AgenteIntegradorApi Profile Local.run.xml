@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AgenteIntegradorApi Profile Local" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="br.com.workday.g4.AgenteIntegradorApi" />
+    <module name="agente-integrador-api" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="br.com.workday.g4.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

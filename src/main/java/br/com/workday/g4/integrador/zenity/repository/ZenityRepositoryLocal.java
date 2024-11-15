@@ -1,7 +1,9 @@
 package br.com.workday.g4.integrador.zenity.repository;
 
 import br.com.workday.g4.integrador.zenity.contract.CursosCertificadosContract;
+import br.com.workday.g4.integrador.zenity.contract.ExpertisesContract;
 import br.com.workday.g4.integrador.zenity.contract.HabilidadesContract;
+import br.com.workday.g4.integrador.zenity.contract.RemuneracaoContract;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
@@ -23,11 +25,14 @@ public class ZenityRepositoryLocal implements ZenityRepository{
 
     private final String caminhoHabilidades;
     private final String caminhoCursosCertificados;
+    private final String caminhoExpertises;
 
     public ZenityRepositoryLocal(@Value("${aws.s3.mockzenity.caminho.habilidades}") String caminhoHabilidades,
-                                 @Value("${aws.s3.mockzenity.caminho.cursos_certificados}") String caminhoCursosCertificados) {
+                                 @Value("${aws.s3.mockzenity.caminho.cursos_certificados}") String caminhoCursosCertificados,
+                                 @Value("${aws.s3.mockzenity.caminho.expertises}") String caminhoExpertises) {
         this.caminhoHabilidades = caminhoHabilidades;
         this.caminhoCursosCertificados = caminhoCursosCertificados;
+        this.caminhoExpertises = caminhoExpertises;
     }
 
     @Override
@@ -54,5 +59,23 @@ public class ZenityRepositoryLocal implements ZenityRepository{
         var cursosCertificados = new ObjectMapper().readValue(inputStream,
                 new TypeReference<List<CursosCertificadosContract>>(){});
         return cursosCertificados;
+    }
+
+    @Override
+    public ExpertisesContract recuperarExpertizes(String pessoaId) throws IOException {
+        LOGGER.info("recuperando expertises pessoa {} local", pessoaId);
+        InputStream inputStream = getInputStream(pessoaId,this.caminhoExpertises);
+
+        var expertises = new ObjectMapper().readValue(inputStream, ExpertisesContract.class);
+        return expertises;
+    }
+
+    @Override
+    public RemuneracaoContract recuperarRemuneracao(String pessoaId) throws IOException {
+        LOGGER.info("recuperando remuneracao pessoa {} local", pessoaId);
+        InputStream inputStream = getInputStream(pessoaId,this.caminhoExpertises);
+
+        var remuneracao = new ObjectMapper().readValue(inputStream, RemuneracaoContract.class);
+        return remuneracao;
     }
 }

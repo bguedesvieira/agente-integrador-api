@@ -1,7 +1,9 @@
 package br.com.workday.g4.integrador.zenity;
 
 import br.com.workday.g4.integrador.zenity.contract.CursosCertificadosContract;
+import br.com.workday.g4.integrador.zenity.contract.ExpertisesContract;
 import br.com.workday.g4.integrador.zenity.contract.HabilidadesContract;
+import br.com.workday.g4.integrador.zenity.contract.RemuneracaoContract;
 import br.com.workday.g4.integrador.zenity.repository.ZenityRepository;
 
 import org.springframework.data.domain.Page;
@@ -49,5 +51,13 @@ public class ZenityService {
         }
 
         return lista.subList(start, end);
+    }
+
+    public ExpertisesContract recuperarExpertizes(String pessoaId) throws IOException {
+        return zenityRepository.recuperarExpertizes(pessoaId);
+    }
+
+    public RemuneracaoContract recuperarRemuneracao(String pessoaId) throws IOException {
+        return zenityRepository.recuperarRemuneracao(pessoaId);
     }
 }
