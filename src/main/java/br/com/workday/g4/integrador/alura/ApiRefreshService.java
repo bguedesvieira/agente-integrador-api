@@ -11,8 +11,12 @@ import java.util.concurrent.TimeUnit;
 public class ApiRefreshService {
 
 
+    private final AluraFeignClient client;
+
     @Autowired
-    private AluraFeignClient client;
+    public ApiRefreshService(AluraFeignClient client) {
+        this.client = client;
+    }
 
     @Scheduled(fixedDelayString = "1", timeUnit = TimeUnit.DAYS)
     public void refreshCourses() {
