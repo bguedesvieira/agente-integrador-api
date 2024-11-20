@@ -1,0 +1,5 @@
+# Ignorar o diretório /target
+/target
+
+# Ignorar o arquivo build.sh
+build.sh
